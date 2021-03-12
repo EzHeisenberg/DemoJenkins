@@ -17,59 +17,59 @@ public class Application {
     System.out.println("--------------------------");
 
     int choix;
-    int a;
-    int b;
+    int valueA;
+    int valueB;
     int res;
     Calculator c = new Calculator();
 
     //Scanner
     System.out.print("Entrez votre choix : ");
-    Scanner sc = new Scanner(System.in, Charset.defaultCharset());
-    choix = sc.nextInt();
+    Scanner scanner = new Scanner(System.in, Charset.defaultCharset());
+    choix = scanner.nextInt();
 
 
     switch (choix) {
       case 1:
         System.out.print("Entrez votre 1er nombre : ");
-        a = sc.nextInt();
+        valueA = scanner.nextInt();
         System.out.print("Entrez votre 2er nombre : ");
-        b = sc.nextInt();
-        res = c.add(a, b);
-        System.out.print(a +" + " + b + " = " + res);
+        valueB = scanner.nextInt();
+        res = c.add(valueA, valueB);
+        System.out.print(valueA +" + " + valueB + " = " + res);
         break;
       case 2:
         System.out.print("Entrez votre 1er nombre : ");
-        a = sc.nextInt();
+        valueA = scanner.nextInt();
         System.out.print("Entrez votre 2er nombre : ");
-        b = sc.nextInt();
-        res = c.sub(a, b);
-        System.out.print(a +" - " + b + " = " + res);
+        valueB = scanner.nextInt();
+        res = c.sub(valueA, valueB);
+        System.out.print(valueA +" - " + valueB + " = " + res);
         break;
       case 3:
         System.out.print("Entrez votre 1er nombre : ");
-        a = sc.nextInt();
+        valueA = scanner.nextInt();
         System.out.print("Entrez votre 2er nombre : ");
-        b = sc.nextInt();
-        res = c.mul(a, b);
-        System.out.print(a +" * " + b + " = " + res);
+        valueB = scanner.nextInt();
+        res = c.mul(valueA, valueB);
+        System.out.print(valueA +" * " + valueB + " = " + res);
         break;
       case 4:
         System.out.print("Entrez votre 1er nombre : ");
-        a = sc.nextInt();
+        valueA = scanner.nextInt();
         System.out.print("Entrez votre 2er nombre : ");
-        b = sc.nextInt();
-        res = c.div(a, b);
-        System.out.print(a +" / " + b + " = " + res);
+        valueB = scanner.nextInt();
+        res = c.div(valueA, valueB);
+        System.out.print(valueA +" / " + valueB + " = " + res);
         break;
       case 5:
         System.out.print("Entrez votre nombre : ");
-        a = sc.nextInt();
-        System.out.print(c.pair(a));
+        valueA = scanner.nextInt();
+        System.out.print(c.pair(valueA));
         break;
       case 6:
         System.out.print("Entrez votre nombre : ");
-        a = sc.nextInt();
-        System.out.print(c.premier(a));
+        valueA = scanner.nextInt();
+        System.out.print(c.premier(valueA));
         break;
       default:
         System.out.println("EHEH");

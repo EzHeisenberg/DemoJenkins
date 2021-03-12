@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ebc7ce5-35b7-4fd1-91c3-ae23948ebf67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demojenkins.iws" beforeDir="false" afterPath="$PROJECT_DIR$/demojenkins.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epsi/mycal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epsi/mycal/Application.java" afterDir="false" />
     </list>
@@ -261,7 +260,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615542728036</updated>
-      <workItem from="1615542730782" duration="2967000" />
+      <workItem from="1615542730782" duration="3270000" />
     </task>
     <servers />
   </component>
