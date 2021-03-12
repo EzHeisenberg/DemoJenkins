@@ -1,4 +1,5 @@
 package com.epsi.mycal;
+import java.nio.charset.Charset;
 import java.util.Scanner;
 
 public class Application {
@@ -23,7 +24,7 @@ public class Application {
 
     //Scanner
     System.out.print("Entrez votre choix : ");
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in, Charset.defaultCharset());
     choix = sc.nextInt();
 
 
@@ -69,6 +70,9 @@ public class Application {
         System.out.print("Entrez votre nombre : ");
         a = sc.nextInt();
         System.out.print(c.premier(a));
+        break;
+      default:
+        System.out.println("EHEH");
         break;
     }
 
