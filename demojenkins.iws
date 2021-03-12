@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ebc7ce5-35b7-4fd1-91c3-ae23948ebf67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epsi/mycal/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epsi/mycal/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +260,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615542728036</updated>
-      <workItem from="1615542730782" duration="3435000" />
+      <workItem from="1615542730782" duration="3641000" />
     </task>
     <servers />
   </component>
