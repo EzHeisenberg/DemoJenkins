@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+    id 'jacoco'
+    id 'checkstyle'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+        csv.enabled true
+    }
+}
+
+def classesJava = "${project.buildDir}/classes/java/main/"
+checkstyle {
+    toolVersion = "6.3"
+}
+task checkstyleMain (type: Checkstyle, overwrite: true) {
+    ignoreFailures = true
+    showViolations = false
+    source fileTree('src/main/java')
+    include '**/*.java'
+    exclude '**/gen/**'
+    classpath = fileTree(classesJava)
+    configFile = file("${rootProject.rootDir}/config/checkstyle/checkstyle.xml")
+}
+
