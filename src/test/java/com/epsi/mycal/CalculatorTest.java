@@ -19,64 +19,64 @@ public class CalculatorTest {
 
   @Test
   public void testAdd() {
-    int a = 2;
-    int b = 3;
+    int valueA = 2;
+    int valueB = 3;
 
     Calculator calc = new Calculator();
-    int actual = calc.add(a, b);
+    int actual = calc.add(valueA, valueB);
 
     assertEquals(5, actual);
   }
 
   @Test
   public void testSub() {
-    int a = 4;
-    int b = 2;
+    int valueA = 4;
+    int valueB = 2;
 
     Calculator calc = new Calculator();
-    int actual = calc.sub(a, b);
+    int actual = calc.sub(valueA, valueB);
 
     assertEquals(2, actual);
   }
 
   @Test
   public void testMul() {
-    int a = 4;
-    int b = 2;
+    int valueA = 4;
+    int valueB = 2;
 
     Calculator calc = new Calculator();
-    int actual = calc.mul(a, b);
+    int actual = calc.mul(valueA, valueB);
 
     assertEquals(8, actual);
   }
 
   @Test
   public void testDiv() {
-    int a = 4;
-    int b = 2;
+    int valueA = 4;
+    int valueB = 2;
 
     Calculator calc = new Calculator();
-    int actual = calc.div(a, b);
+    int actual = calc.div(valueA, valueB);
 
     assertEquals(2, actual);
   }
 
   @Test
   public void testPair() {
-    int a = 4;
+    int valueA = 4;
 
     Calculator calc = new Calculator();
-    boolean actual = calc.pair(a);
+    boolean actual = calc.pair(valueA);
 
     assertTrue(actual);
   }
 
   @Test
   public void testPremier() {
-    int a = 7;
+    int valueA = 7;
 
     Calculator calc = new Calculator();
-    boolean actual = calc.premier(a);
+    boolean actual = calc.premier(valueA);
 
     assertTrue(actual);
   }
